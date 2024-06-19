@@ -44,7 +44,8 @@ local Section = Tab:AddSection({
 
 Tab:AddButton({
 	Name = "SET YOUR PET [click on SET YOUR PET and than click on the dupe]!",
-	Callback = function()loadstring(game:HttpGet("https://raw.githubusercontent.com/AbHackerGroup/Adoptmescript/main/AdoptmeAnsh"))()
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AbHackerGroup/Adoptmescript/main/AdoptmeAnsh"))()
       		print("button pressed")
   	end    
 })
